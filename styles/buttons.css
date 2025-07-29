@@ -1,0 +1,50 @@
+.subscribe-button{
+    background-color: firebrick;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.subscribe-button:hover{ 
+    opacity: 0.7;
+}
+
+.subscribe-button:active{
+    opacity: 0.5;
+}
+.download-button{
+    background-color: rgb(53, 128, 189);
+    color: white;
+    height: 40px;
+    width: 155px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-color: rgb(53, 128, 189);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    transition: background-color 0.15s, color 1s;
+    transition: box-shadow 0.15s;
+ 
+}
+
+
+
+.download-button:hover{
+    background-color: white;
+    color: rgb(53, 128, 189);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+}
+
+.download-button:active{
+    opacity: 0.7;
+}
